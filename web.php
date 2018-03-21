@@ -21,7 +21,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
 Route::get('/office', 'OfficeController@office')->name('office');
 
 Route::post('/officepost', 'OfficeController@officepost')->name('officepost');
